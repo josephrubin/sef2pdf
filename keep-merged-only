@@ -1,0 +1,3 @@
+Run from powershell once in the correct directory. WARNING! Make sure you are in the directory, otherwise you will wipe your drive.
+Get-ChildItem -File -Recurse -Exclude "merged.txt" | Remove-Item -Force
+Get-ChildItem -Recurse "hebrew" | Remove-Item -Force -Recurse
